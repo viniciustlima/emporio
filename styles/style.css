@@ -1,0 +1,249 @@
+@import url("http://fonts.googleapis.com/css?family=Poppins");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins";
+}
+
+.center {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.w50 {
+	width: 50%;
+}
+
+header {
+	background: #FECE41;
+	padding: 0 2%;
+}
+
+header .center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h2 {
+	color: #221B10;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+header nav li a:hover {
+	background: #f2bf27;
+}
+
+header .mob-button {
+	display: none;
+	float: right;
+	font-size: 32px;
+	color: #2b2b2b;
+	padding: 25px 20px;
+	cursor: pointer;
+}
+
+section.mobile {
+	display: none;
+	background: #fff;
+}
+
+section.mobile nav.mobile ul {
+	width: 100%;
+	list-style-type: none;
+	display: none;
+	padding: 10px 0;
+}
+
+section.mobile nav.mobile li {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+section.mobile nav.mobile li:not(:last-child) {
+	border-bottom: 2px solid #2b2b2b;
+}
+
+section.mobile nav.mobile li a {
+	color: #2b2b2b;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 15px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+header nav.desktop {
+	float: right;
+}
+
+header nav.desktop li {
+	display: inline-block;	
+}
+
+header nav.desktop li a {
+	padding: 25px 20px;
+	display: block;
+	color: #221B10;
+	text-decoration: none;
+	font-size: 18px;
+	transition: 0.15s;
+}
+
+main {
+	height: 500px;
+	background: #FECE41;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main h2 {
+	font-weight: 300;
+	font-size: 42px;
+	color: #221B10;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+section.greeting-section {
+	padding: 30px 0;
+}
+
+section.greeting-section .w50 {
+	text-align: justify;
+}
+
+section.greeting-section .w50 h2 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #221B10;
+	margin-bottom: 10px;
+}
+
+section.greeting-section .w50 p {
+	font-weight: 400;
+	color: #221B10;
+	margin: 10px 0;
+}
+
+section.greeting-section #image {
+	display: block;
+	width: 300px;
+	height: 300px;
+	background: #FECE41;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+footer {
+	background: #FECE41;
+	padding: 0 2%;
+}
+
+footer p {
+	display: block;
+	color: #221B10;
+	font-weight: 300;
+	font-size: 14px;
+	padding: 20px 0;
+}
+
+footer a {
+	color: #221B10;
+}
+
+@media screen and (max-width: 920px) {
+	header nav.desktop {
+		display: none;
+	}
+
+	header .mob-button {
+		display: block
+	}
+
+	section.mobile {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 720px) {
+	main h2 {
+		font-size: 36px;
+	}
+
+	footer .left,
+	footer .right {
+		float: none;
+	}
+
+	footer {
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	footer p {
+		padding: 10px 0;
+	}
+
+	.w50 {
+		width: 100%;
+	}
+
+	section .center {
+		padding: 0 5%;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	main h2 {
+		font-size: 28px;
+	}
+
+	header .mob-button {
+		padding: 30px 20px;
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	header h2 {
+		font-size: 24px;
+	}
+
+	main h2 {
+		font-size: 24px;
+	}
+
+	header .mob-button {
+		padding: 30px 20px;
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	header h2 {
+		font-size: 24px;
+	}
+}
