@@ -18,3 +18,7 @@ $('header .mob-button').click(() => {
 if ($(window.innerWidth)[0] < 460) {
   $('footer .left p').html('&copy; 2022 Empório das Bananas<br>Todos os direitos reservados.')
 }
+
+// HEADER AND BANNER
+
+$('main').css('height', `calc(100% - ${$('header')[0].clientHeight}px)`)

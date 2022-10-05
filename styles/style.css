@@ -7,6 +7,10 @@
 	font-family: "Poppins";
 }
 
+html, body {
+	height: 100%;
+}
+
 .center {
 	width: 100%;
 	max-width: 1080px;
