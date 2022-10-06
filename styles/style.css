@@ -272,6 +272,45 @@ section.contact form .input-box textarea {
 	border: 1px solid #221b1071;
 }
 
+section.contact form .input-box button {
+	padding: 15px 20px;
+	border-radius: none;
+	border: 0;
+	background: #221B10;
+	color: #fff;
+	font-size: 16px;
+	margin: 0 auto;
+	display: block;
+}
+
+section.contact form small {
+	font-size: 12px;
+}
+
+section.contact .social-media {
+	text-align: center;
+}
+
+section.contact .social-media h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #221B10;
+}
+
+section.contact .social-media svg {
+	display: inline-block;
+	font-size: 36px;
+	color: #221B10;
+	margin: 10px 15px;
+}
+
+section.contact .social-media a {
+	display: block;
+	margin: 20px 0;
+	text-decoration: none;
+	color: #221B10;
+}
+
 footer {
 	background: #FECE41;
 	padding: 0 2%;
@@ -289,6 +328,16 @@ footer a {
 	color: #221B10;
 }
 
+@media screen and (max-width: 950px) {
+	.w25 {
+		width: 50%
+	}
+
+	.w25 p {
+		padding: 0 60px !important;
+	}
+}
+
 @media screen and (max-width: 920px) {
 	header nav.desktop {
 		display: none;
@@ -303,6 +352,18 @@ footer a {
 	}
 }
 
+@media screen and (max-width: 850px) {
+	section.contact .w50 {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	section.contact .form-box {
+		max-width: 400px;
+		display: block;
+		margin: 0 auto;
+	}
+}
 
 @media screen and (max-width: 720px) {
 	main h2 {
@@ -340,6 +401,10 @@ footer a {
 	header .mob-button {
 		padding: 30px 20px;
 		font-size: 28px;
+	}
+
+	.w25 {
+		width: 100%
 	}
 }
 
