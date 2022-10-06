@@ -1,0 +1,27 @@
+{
+  "name": "emporio",
+  "version": "1.0.0",
+  "description": "Site de empresa fictícia, Empório das Bananas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciustlima/emporio.git"
+  },
+  "author": "Vinicius Trindade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciustlima/emporio/issues"
+  },
+  "homepage": "https://github.com/viniciustlima/emporio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3"
+  }
+}
