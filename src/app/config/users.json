@@ -1,0 +1,11 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Vinícius Trindade",
+			"role": 8,
+			"username": "masteradmin",
+			"password": "master@admin"
+		}
+	]
+}
