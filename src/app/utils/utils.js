@@ -19,7 +19,8 @@ class Utils {
 			'Produção=4',
 			'Vendas=3',
 			'Marketing=2',
-			'Comunicação=1'
+			'Comunicação=1',
+			'Professor=0'
 			]
 
 		for (const i in roles) {
@@ -40,7 +41,8 @@ class Utils {
 			'fa-oven=4',
 			'fa-shopping-bag=3',
 			'fa-analytics=2',
-			'fa-megaphone=1'
+			'fa-megaphone=1',
+			'fa-diploma=0'
 		]
 
 		for (const i in roles) {
