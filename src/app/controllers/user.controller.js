@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 
-const User = require('../models/User')
+const User = require('../models/user')
 const utils = require('../utils/utils')
 
 class UserController {
