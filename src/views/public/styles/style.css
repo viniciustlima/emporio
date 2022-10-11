@@ -230,6 +230,9 @@ section.team .w25 #picture {
 	background: #221B10;
 	margin: 10px auto;
 	border-radius: 15px;
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 section.contact {
