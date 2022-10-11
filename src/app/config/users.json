@@ -55,6 +55,34 @@
 			"role": 1,
 			"username": "elianavieira",
 			"password": "elianavieira"
+		},
+		{
+			"id": 9,
+			"name": "Professora Mirian",
+			"role": 0,
+			"username": "profmirian",
+			"password": "profmirian"
+		},
+		{
+			"id": 10,
+			"name": "Professora Cíntia",
+			"role": 0,
+			"username": "profcintia",
+			"password": "profcintia"
+		},
+		{
+			"id": 11,
+			"name": "Professor Dexter",
+			"role": 0,
+			"username": "profdede",
+			"password": "profdede"
+		},
+		{
+			"id": 12,
+			"name": "Professor William",
+			"role": 0,
+			"username": "profwill",
+			"password": "profwill"
 		}
 	]
 }
