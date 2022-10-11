@@ -1,0 +1,3 @@
+{
+	"ignore": ["src/app/config/*.json", "src/views/public/javascript/*.js", "src/views/public/admin/scripts/*.js"]
+}

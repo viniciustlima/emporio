@@ -4,8 +4,57 @@
 			"id": 1,
 			"name": "Vinícius Trindade",
 			"role": 8,
-			"username": "masteradmin",
-			"password": "master@admin"
+			"username": "vinicius",
+			"password": "jen12032008@"
+		},
+		{
+			"id": 2,
+			"name": "Yasmim Alves",
+			"role": 7,
+			"username": "yasmimalves",
+			"password": "yasmimalves"
+		},
+		{
+			"id": 3,
+			"name": "Vitória Moreira",
+			"role": 6,
+			"username": "vitoriamoreira",
+			"password": "vitoriamoreira"
+		},
+		{
+			"id": 4,
+			"name": "Gabriel Miyashiro",
+			"role": 5,
+			"username": "gabrielmiyashiro",
+			"password": "gabrielmiyashiro"
+		},
+		{
+			"id": 5,
+			"name": "Gustavo Castanho",
+			"role": 4,
+			"username": "gustavocastanho",
+			"password": "gustavocastanho"
+		},
+		{
+			"id": 6,
+			"name": "Cauã Campana",
+			"role": 3,
+			"username": "cauacampana",
+			"password": "cauacampana"
+		},
+		{
+			"id": 7,
+			"name": "Thainá Cherubini",
+			"role": 2,
+			"username": "thainacherubini",
+			"password": "thainacherubini"
+		},
+		{
+			"id": 8,
+			"name": "Eliana Vieira",
+			"role": 1,
+			"username": "elianavieira",
+			"password": "elianavieira"
 		}
 	]
 }

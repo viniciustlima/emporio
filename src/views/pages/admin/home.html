@@ -13,15 +13,89 @@
 	<meta name="theme-color" content="#ffffff">
 	<meta name="format-detection" content="telephone=no">
 
-	<link rel="stylesheet" href="./admin/styles/style.css">
+	<link rel="stylesheet" href="../admin/styles/main.css">
 </head>
 <body>
+	<aside class="left">
+			<div class="user">
+				<div class="role left">
+					<i class="fas <%= utils.getRoleIcon(login.role) %>"></i>
+				</div>
+				<div class="info left">
+					<h2><%= login.name %></h2>
+					<h3><%= utils.getRole(login.role) %></h3>
+				</div>
+			</div>
+			<div class="items">
+				<h2>Usuário</h2>
+				<a href="/admin/editar-usuario">Editar usuário</a>
+				<h2>Setores</h2>
+				<a href="/admin/a-empresa">A Empresa</a>
+				<a href="/admin/finanças">Finanças</a>
+				<a href="/admin/administração">Administração</a>
+				<a href="/admin/recursos-humanos">Recursos Humanos</a>
+				<a href="/admin/logística">Logística</a>
+				<a href="/admin/produção">Produção</a>
+				<a href="/admin/vendas">Vendas</a>
+				<a href="/admin/marketing">Marketing</a>
+				<a href="/admin/comunicação">Comunicação</a>
+				<h2>Outros</h2>
+				<a href="/amdin/logs">Logs</a>
+				<a href="/">Website</a>
+			</div>
+		</aside>
 
-  <h2>Pagina Principal</h2>
+		<header class="left">
+			<div class="menu-button left"><i class="fa-solid fa-bars"></i></div>
+			<div class="logout right">
+				<a href="/admin/logout">
+					<i class="fa-solid fa-arrow-right-from-bracket"></i>
+					<span>Encerrar sessão</span>
+				</a>
+			</div>
+			<div
+				style="display:<%= (page == '/admin/') ? 'none' : 'block' %>"
+				class="home right"
+			>
+				<a href="/">
+					<i class="fa-solid fa-house"></i> <span>Página inicial</span>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</header>
 
-  <a href="/admin/logout">Sair</a>
-
+		<main class="left">
+			<% if (page == '/admin/') { %> <%- include('./main.html') %> <% } else
+			{ %> <%- include('./' + page.split('/')[2] + '.html') %> <% } %>
+		</main>
+<!-- 
+  <aside>
+		<div class="top"><h2>Empório das Bananas</h2></div>
+		<div class="menu">
+			<ul>
+				<li><a href="/admin/"><i class="fas fa-home"></i> Página Inicial</a></li>
+				<li class="submenu"><i class="fas fa-caret-right"></i> Setores
+					<ul class="setores">
+						<li><a href="/admin/a-empresa">A Empresa</a></li>
+						<li><a href="/admin/finanças">Finanças</a></li>
+						<li><a href="/admin/administração">Administração</a></li>
+						<li><a href="/admin/recursos Humanos">Recursos Humanos</a></li>
+						<li><a href="/admin/logística">Logística</a></li>
+						<li><a href="/admin/produção">Produção</a></li>
+						<li><a href="/admin/vendas">Vendas</a></li>
+						<li><a href="/admin/marketing">Marketing</a></li>
+						<li><a href="/admin/comunicação">Comunicação</a></li>
+					</ul>
+				</li>
+				<li><a href="/admin/profile"><i class="fas fa-user"></i> Perfil</a></li>
+				<li><a href="/"><i class="fas fa-globe"></i> Website</a></li>
+				<p><a href="/admin/logout"><i class="fas fa-sign-out"></i> Sair</a></p>
+			</ul>
+		</div>
+  </aside>
+	-->
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	<script src="../scripts/fontawesome.js"></script>
+	<script src="../admin/scripts/script.js"></script>
 </body>
 </html>

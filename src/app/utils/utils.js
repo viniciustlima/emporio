@@ -12,7 +12,7 @@ class Utils {
 
 	getRole = (r) => {
 		const roles = [
-			'Presidente e financeiro=8',
+			'Presidente e Financeiro=8',
 			'Administração=7',
 			'Recursos Humanos=6',
 			'Logística=5',
@@ -32,7 +32,16 @@ class Utils {
 	}
 
 	getRoleIcon = (r) => {
-		const roles = ['fa-star=2', 'fa-crown=1', 'fa-user=0']
+		const roles = [
+			'fa-star=8',
+			'fa-user-tie=7',
+			'fa-suitcase=6',
+			'fa-head-side-brain=5',
+			'fa-oven=4',
+			'fa-shopping-bag=3',
+			'fa-analytics=2',
+			'fa-megaphone=1'
+		]
 
 		for (const i in roles) {
 			var index = roles[i].split('=')
