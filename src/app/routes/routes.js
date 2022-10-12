@@ -18,6 +18,11 @@ router.get('/admin/logout', admin.logout)
 router.get('/admin/editar-usuario', loginM, user.editInfoG)
 router.post('/admin/editar-usuario', loginM, user.editInfoP)
 
-router.get('/permission-error', loginM, admin.permissionError)
+router.get('/admin/permission-error', loginM, admin.permissionError)
+
+router.get('/admin/logs', loginM, admin.logs)
+router.get('/admin/logs/files', loginM, admin.logs)
+router.get('/admin/logs/files/:year', loginM, admin.logsYearPage)
+router.get('/admin/logs/files/:year/:month', loginM, admin.logsMonthPage)
 
 module.exports = router
