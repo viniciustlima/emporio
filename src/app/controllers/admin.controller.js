@@ -4,7 +4,7 @@ const fs = require('fs')
 const utils = require('../utils/utils.js')
 
 class AdminController {
-  index(req, res) {
+  index = (req, res) => {
     return res.render('admin/home', {
 			login: req.session.login, 
       utils, 
@@ -12,14 +12,14 @@ class AdminController {
 		})
   }
 
-  glogin(req, res) {
+  glogin = (req, res) => {
     if (req.session.login != undefined)
       return res.redirect('/admin',)
 
     return res.render('admin/login')
   }
 
-  plogin(req, res) {
+  plogin = (req, res) => {
     try {
       var data = fs.readFileSync(
         path.join(__dirname, '../config/users.json'),
@@ -53,7 +53,7 @@ class AdminController {
 
   permissionError = (req, res) => {
     utils.log(`[PDA RTH] uid:${login.id}`)
-    return res.render('home', {
+    return res.render('admin/home', {
       login: req.session.login,
       utils,
       page: req.originalUrl,
@@ -62,7 +62,7 @@ class AdminController {
   }
 
   logs = (req, res) => {
-    return res.render('home', {
+    return res.render('admin/home', {
       login: req.session.login,
       utils,
       page: req.originalUrl,
@@ -75,7 +75,7 @@ class AdminController {
   downloadLog = (req, res) =>
     res.download(path.join(__dirname, `../logs/${req.params.file}`))
 
-  redirectHome = (_req, res) => res.redirect('/admin')
+  redirectHome = (_req, res) => res.redirect('/admin/')
 }
 
 module.exports = new AdminController()
