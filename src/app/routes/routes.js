@@ -16,8 +16,8 @@ router.post('/admin/login', admin.plogin)
 router.get('/admin/logout', admin.logout)
 
 router.get('/admin/editar-usuario', loginM, user.editInfoG)
+router.post('/admin/editar-usuario', loginM, user.editInfoP)
 
 router.get('/permission-error', loginM, admin.permissionError)
-
 
 module.exports = router

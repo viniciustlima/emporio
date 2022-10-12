@@ -11,3 +11,24 @@ $('li.submenu').click(() => {
     menuopen = true
   }
 })
+
+var viewPassword = document.querySelector("form span.password");
+var passwordField = document.querySelector("input#password");
+var isPasswordVisible = false;
+
+viewPassword.addEventListener("click", () => {
+  if (!isPasswordVisible) showPassword();
+  else hidePassword();
+});
+
+showPassword = () => {
+  viewPassword.innerText = "lock_open";
+  passwordField.attributes.type.textContent = "text";
+  isPasswordVisible = true;
+};
+
+hidePassword = () => {
+  viewPassword.innerText = "lock";
+  passwordField.attributes.type.textContent = "password";
+  isPasswordVisible = false;
+};

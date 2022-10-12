@@ -13,6 +13,10 @@ class UserController {
 			title: 'Editar Usuário',
 		})
 	}
+
+	editInfoP = (req, res) => {
+		return res.send('ok')
+	}
 }
 
 module.exports = new UserController()

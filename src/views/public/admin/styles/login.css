@@ -1,11 +1,11 @@
 @import './global.css';
 
 body {
-	width: 100%;
 	background: #FECE41;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 form {
@@ -41,4 +41,20 @@ form button {
 form small {
 	font-size: 12px;
 	color: #888;
+}
+
+form .input-box {
+	position: relative;
+}
+
+form span {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	font-size: 32px;
+	color: #2b2b2b;
+}
+
+form span.password {
+	cursor: pointer;
 }
