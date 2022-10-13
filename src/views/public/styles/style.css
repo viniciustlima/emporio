@@ -332,17 +332,7 @@ footer a {
 	color: #221B10;
 }
 
-@media screen and (max-width: 950px) {
-	.w25 {
-		width: 50%
-	}
-
-	.w25 p {
-		padding: 0 60px !important;
-	}
-}
-
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 980px) {
 	header nav.desktop {
 		display: none;
 	}
@@ -353,6 +343,16 @@ footer a {
 
 	section.mobile {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.w25 {
+		width: 50%
+	}
+
+	.w25 p {
+		padding: 0 60px !important;
 	}
 }
 
