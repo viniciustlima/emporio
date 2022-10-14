@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {	
-	margin: 0; 
-	padding: 0;	
-	box-sizing: border-box; 
-	outline: none; 
-	list-style: none; 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
 	font-family: "Poppins";
 }
 
-html, 
-body { 
-	height: 100%; 
+html,
+body {
+	height: 100%;
 	scroll-behavior: smooth;
-} 
+}
 
 input,
-textarea { 
+textarea {
 	border-radius: 0;
  }
 
@@ -25,13 +25,13 @@ textarea {
 	overflow-y: auto;
 }
 
-input, 
-input:focus, 
-textarea:focus, 
-select:focus, 
+input,
+input:focus,
+textarea:focus,
+select:focus,
 button,
 button:focus {
-	outline: 0; 
+	outline: 0;
 }
 
 .center {
@@ -128,7 +128,7 @@ header nav.desktop {
 }
 
 header nav.desktop li {
-	display: inline-block;	
+	display: inline-block;
 }
 
 header nav.desktop li a {
@@ -230,7 +230,7 @@ section.team .w25 #picture {
 	background: #221B10;
 	margin: 10px auto;
 	border-radius: 15px;
-	background-size: cover; 
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -332,7 +332,7 @@ footer a {
 	color: #221B10;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 990px) {
 	header nav.desktop {
 		display: none;
 	}
