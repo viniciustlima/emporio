@@ -1,0 +1,28 @@
+<div class="content w100">
+	<h2><i class="fas fa-file-alt"></i> Logs da Aplicação</h2>
+</div>
+<div class="content w100">
+	<ul>
+		<li>UAA - User Access Action (Ação de Acesso do Usuário)</li>
+		<ul>
+			<li>LIA - Log In Action (Ação de Log In)</li>
+			<li>LOA - Log Out Action (Ação de Log Out)</li>
+		</ul>
+		<br />
+		<li>UUA - User Update Action (Ação de Atualização do Usuário)</li>
+		<ul>
+			<li>UUS - User Update Successful (Usuário Atualizado com Sucesso)</li>
+			<li>UUF - User Update Failed (Atualização de Usuário Falhou)</li>
+		</ul>
+	</ul>
+	<br />
+	<a href="/admin/logs/files">Previous logs files.</a>
+	<br />
+	<br />
+	<p>Today's logs.</p>
+	<div class="logs">
+		<% for (let i = 0; i < logs.length; i++) { %>
+		<small style="display:block;"><%= logs[i] %></small>
+		<% } %>
+	</div>
+</div>

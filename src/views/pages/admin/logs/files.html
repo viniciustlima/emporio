@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="../../admin/styles/main.css">
+<div class="content w100">
+	<h2>Previous log files</h2>
+	<h4>Select year</h4>
+	<ul>
+		<% years = utils.getLogs().years %>
+		<% for (let i = 0; i < years.length; i++ ) { %>
+		<li><a href="/admin/logs/files/<%= years[i] %>"><%= years[i] %></a></li>
+		<% } %>
+	</ul>
+</div>
