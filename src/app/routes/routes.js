@@ -22,7 +22,5 @@ router.get('/admin/permission-error', loginM, admin.permissionError)
 
 router.get('/admin/logs', loginM, admin.logs)
 router.get('/admin/logs/files', loginM, admin.logs)
-router.get('/admin/logs/files/:year', loginM, admin.logsYearPage)
-router.get('/admin/logs/files/:year/:month', loginM, admin.logsMonthPage)
 
 module.exports = router
