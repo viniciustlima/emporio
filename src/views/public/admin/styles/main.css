@@ -1,4 +1,4 @@
-@import './global.css';
+@import "./global.css";
 
 .overlay {
 	width: 100%;
@@ -82,7 +82,7 @@ aside .user .role {
 	border-radius: 50%;
 	padding: 5px 10px;
 	display: block;
-	margin-right:7px;
+	margin-right: 7px;
 	text-align: center;
 }
 
@@ -185,9 +185,9 @@ main {
 	color: #7a797e;
 }
 
-.content form input[type='text'],
-.content form input[type='number'],
-.content form input[type='password'] {
+.content form input[type="text"],
+.content form input[type="number"],
+.content form input[type="password"] {
 	margin-top: 8px;
 	font-size: 16px;
 	font-weight: normal;
@@ -198,7 +198,7 @@ main {
 	border: 1px solid #ccc;
 }
 
-.content form input[type='file'] {
+.content form input[type="file"] {
 	margin-top: 8px;
 	display: none;
 }
@@ -236,7 +236,7 @@ main {
 	background-color: #fff;
 }
 
-.content form input[type='submit'] {
+.content form input[type="submit"] {
 	width: 200px;
 	height: 55px;
 	padding-top: 10px;
@@ -251,12 +251,12 @@ main {
 	border: 1px solid #66bb6a;
 }
 
-.content form input[type='submit']:hover {
+.content form input[type="submit"]:hover {
 	color: #66bb6a;
 	background-color: #fff;
 }
 
-.content form input[type='submit'].disabled {
+.content form input[type="submit"].disabled {
 	background-color: #4d9750;
 	color: #f0f0f0;
 	cursor: not-allowed;
@@ -291,7 +291,7 @@ main {
 	line-height: 12px;
 	font-size: 10px;
 	font-weight: 600;
-	font-family: 'JetBrains Mono';
+	font-family: "JetBrains Mono";
 }
 
 .content .wrapper-table {

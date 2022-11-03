@@ -1,12 +1,16 @@
-const path = require('path')
-const fs = require('fs')
+const path = require("path");
+const fs = require("fs");
 
-const utils = require('../utils/utils.js')
+const utils = require("../utils/utils.js");
 
 class HomeController {
-  index(req, res) {
-    return res.render('index')
-  }
+	index(req, res) {
+		return res.render("main");
+	}
+
+	home(req, res) {
+		return res.render("index");
+	}
 }
 
-module.exports = new HomeController()
+module.exports = new HomeController();
