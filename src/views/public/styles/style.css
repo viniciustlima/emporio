@@ -228,6 +228,9 @@ section.greeting-section #image {
 	background: #fece41;
 	margin: 0 auto;
 	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 section.team {

@@ -1,0 +1,58 @@
+section.greeting-section #image.equipe {
+	background-image: url("http://localhost:3333/images/gabriel.jpeg");	
+}
+
+section.greeting-section #image.producao {
+	background-image: url("http://localhost:3333/images/caua.jpeg");
+}
+
+section.team .w25 #picture.vinicius {
+	background-image: url("http://localhost:3333/images/vinicius.jpeg");
+}
+
+section.team .w25 #picture.yasmim {
+	background-image: url("http://localhost:3333/images/yasmim.jpeg");
+}
+
+section.team .w25 #picture.vitoria {
+	background-image: url("http://localhost:3333/images/vitoria.jpeg");
+}
+
+section.team .w25 #picture.gabriel {
+	background-image: url("http://localhost:3333/images/gabriel.jpeg");
+}
+
+section.team .w25 #picture.gustavo {
+	background-image: url("http://localhost:3333/images/gustavo.jpeg");
+}
+
+section.team .w25 #picture.caua {
+	background-image: url("http://localhost:3333/images/caua.jpeg");
+}
+
+section.team .w25 #picture.thaina {
+	background-image: url("http://localhost:3333/images/thaina.jpeg");
+}
+
+section.team .w25 #picture.eliana {
+	background-image: url("http://localhost:3333/images/eliana.jpeg");
+}
+
+section.team .w25 #picture.mirian {
+	background-image: url('http://localhost:3333/images/mirian.jpeg');
+	background-position: 0 59%;
+}
+
+section.team .w25 #picture.cintia {
+	background-image: url("http://localhost:3333/images/cintia.jpeg");
+}
+
+section.team .w25 #picture.william {
+	background-image: url("http://localhost:3333/images/william.jpeg");
+	background-position: 0 59%;
+}
+
+section.team .w25 #picture.josemar {
+	background-image: url("http://localhost:3333/images/josemar.jpeg");
+	background-position: 0 59%;
+}
