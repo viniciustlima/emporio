@@ -90,7 +90,6 @@ body.main {
 .box p {
 	text-align: center;
 	margin: 10px auto;
-	padding: 15px 20px;
 	background: #fff;
 	border-radius: 20px;
 	box-shadow: 3px 3px 0px #221b1044;
@@ -98,6 +97,8 @@ body.main {
 }
 
 .box a {
+	display: block;
+	padding: 15px 20px;
 	text-decoration: none;
 	color: #221b10;
 }
