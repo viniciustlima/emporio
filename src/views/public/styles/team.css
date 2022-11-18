@@ -1,5 +1,5 @@
 section.greeting-section #image.equipe {
-	background-image: url("http://localhost:3333/images/equipe.jpeg");	
+	background-image: url("http://emporio-bananas.herokuapp.com/images/equipe.jpeg");	
 	background-position: center;
 	background-size: 500px 300px;
 	background-color: #fff;
@@ -8,7 +8,7 @@ section.greeting-section #image.equipe {
 }
 
 section.greeting-section #image.producao {
-	background-image: url("http://localhost:3333/images/producao.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/producao.jpeg");
 	background-position: center;
 	background-size: 500px 300px;
 	width: 400px;
@@ -16,52 +16,52 @@ section.greeting-section #image.producao {
 }
 
 section.team .w25 #picture.vinicius {
-	background-image: url("http://localhost:3333/images/vinicius.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/vinicius.jpeg");
 }
 
 section.team .w25 #picture.yasmim {
-	background-image: url("http://localhost:3333/images/yasmim.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/yasmim.jpeg");
 }
 
 section.team .w25 #picture.vitoria {
-	background-image: url("http://localhost:3333/images/vitoria.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/vitoria.jpeg");
 }
 
 section.team .w25 #picture.gabriel {
-	background-image: url("http://localhost:3333/images/gabriel.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/gabriel.jpeg");
 }
 
 section.team .w25 #picture.gustavo {
-	background-image: url("http://localhost:3333/images/gustavo.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/gustavo.jpeg");
 }
 
 section.team .w25 #picture.caua {
-	background-image: url("http://localhost:3333/images/caua.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/caua.jpeg");
 }
 
 section.team .w25 #picture.thaina {
-	background-image: url("http://localhost:3333/images/thaina.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/thaina.jpeg");
 }
 
 section.team .w25 #picture.eliana {
-	background-image: url("http://localhost:3333/images/eliana.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/eliana.jpeg");
 }
 
 section.team .w25 #picture.mirian {
-	background-image: url('http://localhost:3333/images/mirian.jpeg');
+	background-image: url('http://emporio-bananas.herokuapp.com/images/mirian.jpeg');
 	background-position: 0 59%;
 }
 
 section.team .w25 #picture.cintia {
-	background-image: url("http://localhost:3333/images/cintia.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/cintia.jpeg");
 }
 
 section.team .w25 #picture.william {
-	background-image: url("http://localhost:3333/images/william.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/william.jpeg");
 	background-position: 0 59%;
 }
 
 section.team .w25 #picture.josemar {
-	background-image: url("http://localhost:3333/images/josemar.jpeg");
+	background-image: url("http://emporio-bananas.herokuapp.com/images/josemar.jpeg");
 	background-position: 0 59%;
 }
