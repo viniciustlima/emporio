@@ -1,9 +1,18 @@
 section.greeting-section #image.equipe {
-	background-image: url("http://localhost:3333/images/gabriel.jpeg");	
+	background-image: url("http://localhost:3333/images/equipe.jpeg");	
+	background-position: center;
+	background-size: 500px 300px;
+	background-color: #fff;
+	width: 400px;
+	max-height: 300px;
 }
 
 section.greeting-section #image.producao {
-	background-image: url("http://localhost:3333/images/caua.jpeg");
+	background-image: url("http://localhost:3333/images/producao.jpeg");
+	background-position: center;
+	background-size: 500px 300px;
+	width: 400px;
+	max-height: 300px;
 }
 
 section.team .w25 #picture.vinicius {
