@@ -1,7 +1,7 @@
 section.greeting-section #image.equipe {
 	background-image: url("https://emporio-bananas.herokuapp.com/images/equipe.jpeg");	
 	background-position: center;
-	background-size: 500px 300px;
+	background-size: 400px 300px;
 	background-color: #fff;
 	width: 400px;
 	max-height: 300px;
@@ -10,7 +10,7 @@ section.greeting-section #image.equipe {
 section.greeting-section #image.producao {
 	background-image: url("https://emporio-bananas.herokuapp.com/images/producao.jpeg");
 	background-position: center;
-	background-size: 500px 300px;
+	background-size: 500px 400px;
 	width: 400px;
 	max-height: 300px;
 }
